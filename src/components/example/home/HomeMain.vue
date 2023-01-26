@@ -87,7 +87,8 @@ export default {
   display: grid;
   grid-template-rows: 1fr 7fr 6fr 10fr 2fr;
 }
-nav, footer {
+nav,
+footer {
   background-color: bisque;
   padding: 1em;
   text-align: center;

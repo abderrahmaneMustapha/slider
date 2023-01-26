@@ -88,7 +88,7 @@ describe("renders properly with content", () => {
     expect(wrapper.vm.currentSlide).toEqual(0);
     wrapper.find(".right").trigger("click");
     expect(wrapper.vm.currentSlide).toEqual(1);
-    wrapper.findAll(".slider-dots-content").at(0)?.trigger("click")
+    wrapper.findAll(".slider-dots-content").at(0)?.trigger("click");
     expect(wrapper.vm.currentSlide).toEqual(0);
   });
 });

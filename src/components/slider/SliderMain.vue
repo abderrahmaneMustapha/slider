@@ -102,9 +102,6 @@ export default {
       }px`;
     },
   },
-  render() {
-    return ('azeaze')
-  },
   mounted() {
     this.startSlideTimer();
     this.assignToParentHight();
