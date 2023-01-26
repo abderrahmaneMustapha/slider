@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-abd-slider": "^0.0.3"
   },
   "main": "./dist/vue-abd-slider.common.js",
   "files": [

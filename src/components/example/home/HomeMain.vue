@@ -73,7 +73,8 @@
 </template>
 
 <script>
-import SliderMain from "../../slider/SliderMain.vue";
+import SliderMain from "vue-abd-slider";
+import "vue-abd-slider/dist/vue-abd-slider.css"
 import CardHome from "./CardHome.vue";
 
 export default {
@@ -83,6 +84,7 @@ export default {
 </script>
 
 <style scoped>
+
 #home {
   display: grid;
   grid-template-rows: 1fr 7fr 6fr 10fr 2fr;
