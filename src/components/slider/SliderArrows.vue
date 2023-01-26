@@ -16,7 +16,7 @@ export default {
   emits: ["prev", "next"], // vue v3
 };
 </script>
-<style scoped>
+<style>
 .slider-arrow {
   background-color: transparent;
   border: none;

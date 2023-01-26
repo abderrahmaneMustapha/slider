@@ -119,7 +119,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .slider-container {
   display: flex;
   justify-content: center;

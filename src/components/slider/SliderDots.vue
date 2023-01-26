@@ -17,7 +17,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 .slider-dots-container {
   position: absolute;
   transform: translateX(-50%);
