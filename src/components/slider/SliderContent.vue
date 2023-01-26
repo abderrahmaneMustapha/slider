@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .slider-item {
   display: flex;
   justify-content: center;
