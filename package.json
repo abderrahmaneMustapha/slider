@@ -1,10 +1,13 @@
 {
-  "name": "slider",
+  "name": "vue-abd-slider",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
+    "serve:lib": "vue-cli-service serve",
+    "build:lib": "vue-cli-service build --target lib --name vue-abd-slider ./src/install.js",
+    "publish:lib": "npm run build:lib && npm version patch -m \"build: release %s\" && npm publish --access public",
     "preview": "vite preview",
     "test:unit": "vitest --silent --environment jsdom --root src/",
     "build-only": "vite build",
@@ -12,8 +15,13 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@vue/cli-service": "^5.0.8",
     "vue": "^3.2.45"
   },
+  "main": "./dist/vue-abd-slider.common.js",
+  "files": [
+    "dist/*"
+  ],
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/jsdom": "^20.0.1",
