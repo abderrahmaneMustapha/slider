@@ -32,7 +32,7 @@ The component have the following props:
 The two examples below shows how to use the slider component in both ways:
 ### 1- Local component
 First you just need to import the slider component, and then define your steps
-inside of and dont forget to give it a name, because name is a required prop.
+inside of and it dont forget to give it a name, because name is a required prop.
 
 ```html
 <template>
